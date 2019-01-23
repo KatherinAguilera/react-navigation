@@ -1,0 +1,36 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^9.0.0",
+    "@expo/videoplayer": "^0.4.0",
+    "expo": "^32.0.0",
+    "react": "16.5.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "react-native-af-video-player": "^0.2.1",
+    "react-native-textinput-effects": "^0.4.2",
+    "react-native-vector-icons": "^6.1.0",
+    "react-native-video": "^3.2.1",
+    "react-redux": "^6.0.0",
+    "redux": "^4.0.1",
+    "redux-persist": "^5.10.0",
+    "react-navigation": "2.2.0",
+    "react-navigation-redux-helpers": "^1.1.2"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "^5.0.0",
+    "babel-jest": "23.0.1",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "23.0.1",
+    "react-test-renderer": "16.3.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "private": true
+}
