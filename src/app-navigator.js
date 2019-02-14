@@ -66,7 +66,8 @@ const TabNavigator = createBottomTabNavigator({
   initialRouteName: 'Home',
   tabBarOptions: {
     activeTintColor: 'white',
-    activeBackgroundColor: '#65a721',
+    activeBackgroundColor: '#3c93b9',
+    backgroundColor: '#65a721'
   }
 })
 
@@ -83,7 +84,7 @@ const WithModal = createStackNavigator(
     mode: 'modal',
     headerMode: 'none',
     cardStyle: {
-      backgroundColor: 'white',
+      backgroundColor: '#e1effa',
     },
     navigationOptions: {
       gesturesEnabled: true,

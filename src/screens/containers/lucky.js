@@ -4,6 +4,7 @@ import {
   Text,
   StyleSheet,
   StatusBar,
+  TextInput
 } from 'react-native';
 import Search from '../../sections/containers/search';
 
@@ -27,8 +28,8 @@ class Lucky extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>🍀</Text>
-        <Search />
+        <Text style={styles.tree}>🍀</Text>
+        <Search style={styles.inputO}/>
       </View>
     )
   }
@@ -40,6 +41,11 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  tree: {
+    paddingHorizontal: 12,
+    paddingVertical: 20,
+  },
+
 })
 
 export default Lucky

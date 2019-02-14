@@ -29,21 +29,24 @@ const styles = StyleSheet.create({
     backgroundColor: 'white',
   },
   logo: {
-    width: 80,
-    height: 26,
-    resizeMode: 'contain',
+    width: 25,
+    height: 25,
+ 
+
   },
   container: {
     paddingVertical: 10,
-    paddingHorizontal: 10,
+    paddingHorizontal: 12,
     flexDirection: 'row',
-    backgroundColor: 'white',
+    backgroundColor: '#3c93b9',
     marginTop: Platform.select ({
-      android: 20,
-    })
+      android: 24,
+    }),
+    alignItems: 'center',
+    justifyContent:'center',
   },
   right: {
-    flex: 1,
+
     flexDirection: 'row',
     justifyContent: 'flex-end',
   }
