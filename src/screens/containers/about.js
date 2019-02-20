@@ -33,7 +33,7 @@ class About extends Component {
           source={{uri: 'https://static.platzi.com/media/achievements/badge-reactnative-9c23a814-e9c3-4041-afbd-ff8083fbf32f.png'}}
           style={styles.logo}
         />
-        <Text style={styles.text}>Video Play es construido como una aplicación educativa para enseñar React Native y React Navigation</Text>
+        <Text style={styles.text}>Video Play es construido como una aplicación realizada con React Native y React Navigation</Text>
         <Text style={styles.text}>@KatherineAguilera</Text>
         <Text style={styles.text}>2019</Text>
       </View>
